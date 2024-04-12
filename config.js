@@ -3,16 +3,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '27640498397'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER ||'2347038308662,2348138277275'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'phoenixgibson007@gmail.com'
-global.github = 'https://github.com/Anonphoenix007/MAKINO-MD'
-global.location = 'Lahore pakistan'
+global.github = 'https://github.com/Lilpresh-hub/MAKINO-MD'
+global.location = 'Africa lagos'
 global.gurl = 'https://instagram.com/alex_david/' // add your username
-global.sudo = process.env.SUDO || "27640498397"
-global.devs = '27640498397'
-global.website = 'https://github.com/Anonphoenix007/MAKINO-MD' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || "2347038308662,2348138277275"
+global.devs = '2347038308662,2348138277275'
+global.website = 'https://github.com/Lilpresh-hub/MAKINO-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/f1ffb3c5f386f9f8bccb5.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
-  caption :process.env.CAPTION || "\t*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ MAKINO-MD•* ",   //『sᴜʙsᴄʀɪʙᴇ •  ᴛᴇᴄʜ x』*\n https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m"),	
+  caption :process.env.CAPTION || "\t*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ Presh-MD•* ",   //『sᴜʙsᴄʀɪʙᴇ •  ᴛᴇᴄʜ x』*\n https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m"),	
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false: process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
